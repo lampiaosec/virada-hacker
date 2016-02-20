@@ -32,6 +32,12 @@ Antes a comunicação sobre as [Viradas][virada] era feita via a [agenda] do [Ra
 
 Ele é feito com [Jekyll] e foi utilizado o tema [Wiki-Blog]. Então, todo agradecimento e carinho para os envolvidos nesses projetos!
 
+# Contribua :)
+
+É importantíssimo que seja entendido que não temos a intenção de dar a entender que somos o detentores do saber. Prefirimos nos definir como eternos aprendizes, então, qualquer erro que encontrar, avisa!, assim, outra pessoa não aprenderá errado. Conhecimento só surge com o auxílio de todos, portanto, vamos nos ajudar sempre e crescermos todos juntos!
+
+No mais, fiquem atentos ao nosso [RSS][feed], [página no facebook][lampiao] e no próprio [site do LampiãoSec][lampiaosec].
+
 [virada]: {{ site.baseurl }}/
 [raulhc]: http://raulhc.cc
 [lampiaosec]: {{ site.url }}
@@ -41,3 +47,4 @@ Ele é feito com [Jekyll] e foi utilizado o tema [Wiki-Blog]. Então, todo agrad
 [agenda]: http://raulhc.cc/Agenda
 [jekyll]: https://jekyllrb.com/
 [wiki-blog]: http://jekyllthemes.org/themes/wiki-blog/
+[lampiaosec]: https://lampiaosec.github.io
