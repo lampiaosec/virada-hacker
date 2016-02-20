@@ -1,0 +1,17 @@
+<div id="jssor_1" style="position: relative; margin: 0 auto; top: 0px; left: 0px; width: 600px; height: 300px; overflow: hidden; visibility: hidden;">
+		<div data-u="slides" style="cursor: default; position: relative; top: 0px; left: 0px; width: 600px; height: 300px; overflow: hidden;">
+				{% for i in page.photos %}
+				<div data-p="112.50" style="display: none;">
+						<img data-u="image" src="{{ site.baseurl }}/static/img/{{ i }}" />
+				</div>
+				{% endfor %}
+		</div>
+		<!-- Arrow Navigator -->
+		<span data-u="arrowleft" class="jssora02l" style="top:0px;left:8px;width:55px;height:55px;" data-autocenter="2"></span>
+		<span data-u="arrowright" class="jssora02r" style="top:0px;right:8px;width:55px;height:55px;" data-autocenter="2"></span>
+		<a href="http://www.jssor.com" style="display:none">Slideshow Maker</a>
+</div>
+<script>
+jssor_1_slider_init();
+</script>
+
