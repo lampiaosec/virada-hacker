@@ -3,16 +3,23 @@
     {
         var title = prompt("Please enter title of your post");
         if (title!=null){
-            title = title.replace(" ", "-");
+            title_url = title.replace(" ", "-");
             var currentdate = new Date();
+			currentMonth = currentdate.getMonth()+1;
+			if (currentMonth < 10) { currentMonth = '0' + currentMonth; }
             var urlNewPage = "{{ site.newsourceroot }}?filename=_posts/" 
-                + currentdate.getFullYear() + "-" + (currentdate.getMonth()+1) + "-" + currentdate.getDate() + "-" + title + ".md";
+                + currentdate.getFullYear() + "/" + currentdate.getFullYear() + "-" + currentMonth + "-" + currentdate.getDate() + "-" + title_url + ".md";
                 
             var defaultText =  [
                 '---',
                 'layout: post',
+				'title: "' + title + '"',
+				'date: ' + currentdate.getFullYear() + "-" + currentMonth + "-" + currentdate.getDate() + " 19:00:00",
                 'comments: true',
-                'categories: diary',
+				'code: false',
+				'photos: ',
+                'categories:',
+				'tags:',
                 '---',
                 '## Title',
                 'text'
