@@ -67,6 +67,15 @@ A oficina consiste em passar um pouco sobre programação em C, Asm e arquitetur
 
 Outra coisa perigosa que pode acontecer a você é gostar da galera, se envolver, e não querer deixar de ir. Portanto, tenha cuidado! Afinal, a força está entre nós.
 
+# Observação
+
+Quem não está na terra da alegria, a chamada Bahia, não se preocupa, eim?! Todo material que rolar na Virada será disponibilizado no post da edição que rolou. Ou seja: os materiais da talk sobre DNS e da oficina low level vão vir para cá. Bem como foto dos participantes (que aceitarem posar, claro). 
+
+Então, fica atento a nossas redes e assina o [feed]! :)
+
+
+
 [chegar]: http://raulhc.cc/Doc/Sede#ComoChegar
 [doar]: http://raulhc.cc/Doc/Doar
 [criancas]: http://raulhc.cc/Agenda.2016-02-26-CriptografiaComCriancas
+[feed]: {{ site.url }}{{ site.baseurl }}/feed.xml
