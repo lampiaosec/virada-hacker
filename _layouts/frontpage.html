@@ -46,13 +46,33 @@ layout: default
           </div>
         {% endfor %}
         <!-- </div> -->
+
+
+        <!-- <div class="posts-in-categories"> -->
+        {% for category in site.tags %}
+          <div post-cate="{{category | first}}">
+            {% for posts in category  %}
+              {% for page in posts %}
+                {% if page.url %}
+                  <a href="{{ page.url | prepend: site.baseurl }}" class="post-list-item">
+                    <h2>
+                    {{ page.title }}
+                    </h2>
+                    <span class="">{% include date.html %}</span>
+                  </a>
+                {% endif %}
+              {% endfor %}
+            {% endfor %}
+          </div>
+        {% endfor %}
+        <!-- </div> -->
       </div>
     </div>
   </div>
   <div class="col-sm-3">
     <div class="shadow-corner-curl hidden-xs">
       <div class="categories-list-header">
-        Categorias
+        Atividades
       </div>
       
       <a href="javascript:;" class="categories-list-item" cate="All">
@@ -62,6 +82,22 @@ layout: default
       {% for category in list %}
         <a href="javascript:;" class="categories-list-item" cate="{{ category | first }}">
           {{ category | first }} <span class="my-badge">{{ category | last | size }}</span>
+        </a>
+      {% endfor %}
+    </div>
+	<br />
+	<div class="shadow-corner-curl hidden-xs">
+      <div class="categories-list-header">
+        Temas
+      </div>
+      
+      <a href="javascript:;" class="categories-list-item" cate="All">
+        Todas<span class="my-badge"> {{site.posts | size}}</span>
+      </a>
+      {% assign taglist = site.tags | sort %}
+      {% for tag in taglist %}
+        <a href="javascript:;" class="categories-list-item" cate="{{ tag | first }}">
+          {{ tag | first }} <span class="my-badge">{{ tag | last | size }}</span>
         </a>
       {% endfor %}
     </div>
