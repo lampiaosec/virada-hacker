@@ -37,7 +37,7 @@ Nela haverá:
 * Primeira talk do LampiãoSec
 * Início da oficina de low level
 
-> *: Não será uma atividade na Virada em si mas sim uma atividade feita por integrantes do LampiãoSec com a galerinha do [Crianças Hacker][criancas]!! :)
+> *: Não será uma atividade na Virada em si. Será uma atividade feita por integrantes do LampiãoSec com a gurizada do [Crianças Hacker][criancas]!! :)
 
 ### Talk
 
