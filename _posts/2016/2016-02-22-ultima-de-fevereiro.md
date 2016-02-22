@@ -39,6 +39,16 @@ Nela haverá:
 
 > *: Não será uma atividade na Virada em si mas sim uma atividade feita por integrantes do LampiãoSec com a galerinha do [Crianças Hacker][criancas]!! :)
 
+### Talk
+
+A talk será sobre DNS. Uma abordagem além do "serve para traduzir nomes" :)
+
+E dando pano para continuação e chegar a tópicos como a segurança do DNS, o universo e tudo mais.
+
+### Oficina de low level
+
+A oficina consiste em passar um pouco sobre programação em C, Asm e arquitetura de computadores. Calma, padawan, sua cabeça não vai fritar (assim esperamos), mas se vir acontever, vai ser o prato de entrada da refeição do conhecimento. 
+
 # Pré-requisitos
 
 * Vontade de aprender
