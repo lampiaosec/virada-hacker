@@ -47,7 +47,7 @@ E dando pano para continuação e chegar a tópicos como a segurança do DNS, o 
 
 ### Oficina de low level
 
-A oficina consiste em passar um pouco sobre programação em C, Asm e arquitetura de computadores. Calma, padawan, sua cabeça não vai fritar (assim esperamos), mas se vir acontever, vai ser o prato de entrada da refeição do conhecimento. 
+A oficina consiste em passar um pouco sobre programação em C, Asm e arquitetura de computadores. Calma, padawan, sua cabeça não vai fritar (assim esperamos), mas se vir a acontecer, vai ser o prato de entrada da refeição do conhecimento. 
 
 # Pré-requisitos
 
