@@ -19,6 +19,8 @@ photos:
 * content
 {:toc}
 
+![Logo do Virada Hacker]({{ site.baseurl }}/static/img/virada.png)
+
 # Informações técnicas
 
 Vamos para essa virada que é a última de fevereiro e a primeira com o site aqui no ar tendo esse novo formato!!!
