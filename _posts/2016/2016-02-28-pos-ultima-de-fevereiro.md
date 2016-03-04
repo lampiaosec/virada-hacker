@@ -17,6 +17,9 @@ code: false
 photos:
     - 2016/02/01.jpg
     - 2016/02/02.jpg
+    - 2016/02/03.jpg
+    - 2016/02/04.jpg
+    - 2016/02/05.jpg
 ---
 
 * content
@@ -32,7 +35,7 @@ Nessa virada foram realizadas várias atividades, como falamos previamente no ou
 
 Foi um sucesso. As crianças se divertiram bastante e ficaram intrigadas com a coisa de passar segredos :P
 
-> Fotos em breve
+> Fotos abaixo
 
 ## Talk de DNS
 
