@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Pós - Última Virada de Fevereiro"
+title: "Diário de Bordo :: Última Virada de Fevereiro"
 date: 2016-02-28 18:00:00
 categories: 
-    - pós
+    - diario de bordo
     - talks
     - oficinas
 tags:
