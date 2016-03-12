@@ -16,8 +16,8 @@ tags:
 comments: true
 code: false
 photos:
-    - 2016/03/02.jpg
-    - 2016/03/01.jpg
+    - 2016/03/04/02.jpg
+    - 2016/03/04/01.jpg
 ---
 
 * content
