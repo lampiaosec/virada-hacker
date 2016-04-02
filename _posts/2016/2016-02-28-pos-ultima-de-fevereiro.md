@@ -45,6 +45,12 @@ Se quiser ver a apresentação de slide utilizado, ela está [aqui][talk].
 
 > P.S.: Possivelmente haverá uma gravação da palestra online. Então, fica atento à [página do LampiãoSec no facebook][facebook], que assim que sair, vamos publicar lá.
 
+### Update :: Vídeo
+
+E como dito, aqui segue o vídeo que fizemos para espalhar ainda mais o conteúdo produzido aqui no [#ViradaHacker](https://lampiaosec.github.io/virada-hacker/):
+
+<center><iframe width="560" height="315" src="https://www.youtube.com/embed/1ZQTs10lmcQ" frameborder="0" allowfullscreen></iframe></center>
+
 > Fotos abaixo
 
 ## Oficina de Low Level
