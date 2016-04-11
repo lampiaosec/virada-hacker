@@ -51,7 +51,7 @@ Portanto, fica aqui nosso sincero arrependimento por isso e saudamos toda a gale
 
 Essa oficina foi feita pelo [User_X][x], co-fundador do [LampiãoSec][lampiao] e nosso *low level boy*, e nela foi dada uma introdução à assembly na arquitetura 64 bits. Com isso, foi explicado também várias questões e termos do mundo low level, como o conceito de *stack*, *stack frame*, *base pointer* e alguns outros ... Com tudo isso, ficou muito claro o que realmente acontece em alguns ataques como *buffer overflow*, *stack overflow* ou alguns bugs, como o *segmentation fault*.
 
-> Não houveram slides, o conteúdo mostrado seguiu sendo por tabelas de referência da linguagem e alguns mapas mentais para facilitar o entendimento. Mas estamos trabalhando na produção de um vídeo para colocar aqui e ficar melhor para todos vocês entenderem. Então, fica ligado na [página do LampiãoSec][facebook] no facebook que assim que for postado nós avisaremos lá.
+> Não houveram slides, o conteúdo mostrado seguiu sendo por tabelas de referência da linguagem e alguns mapas mentais para facilitar o entendimento. Será feito qualquer ajuste necessário e então subiremos os materiais aqui. Se por algum motivo demorar e tiver interesse, basta cobrar, seja comentando aqui no post ou na [página no facebook][facebook].
 
 Mas caso queira já ter um gostinho, olha como ficou o quadro usado para algumas explicações:
 
