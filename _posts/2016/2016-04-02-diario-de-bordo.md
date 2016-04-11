@@ -3,14 +3,14 @@ layout: post
 title: "Diário de Bordo :: 1° de Abril"
 date: 2016-04-02 07:00:00
 categories: 
-    - diario de bordo
+    - diario_de_bordo
     - oficinas
-    - estudos gerais
-    - cine hacker
-    - tips and tricks
+    - estudos_gerais
+    - cine_hacker
+    - tips_and_tricks
 tags:
     - programação
-    - low level
+    - low_level
     - assembly
 comments: true
 code: true

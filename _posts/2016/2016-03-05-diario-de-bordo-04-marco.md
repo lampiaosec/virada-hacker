@@ -3,12 +3,12 @@ layout: post
 title: "Diário de Bordo :: 04 de Março"
 date: 2016-03-05 10:00:00
 categories: 
-    - diario de bordo
+    - diario_de_bordo
     - ctf
-    - estudos gerais
+    - estudos_gerais
 tags:
     - programação
-    - gnu/linux
+    - gnu_linux
     - criptografia
     - recon
     - web

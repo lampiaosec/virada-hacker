@@ -3,14 +3,14 @@ layout: post
 title: "Diário de Bordo :: 11 de Março"
 date: 2016-03-12 15:00:00
 categories: 
-    - diario de bordo
+    - diario_de_bordo
     - talks
-    - estudos gerais
+    - estudos_gerais
 tags:
     - programação
     - c
     - criptografia
-    - cyber war
+    - cyber_war
 comments: true
 code: true
 photos:

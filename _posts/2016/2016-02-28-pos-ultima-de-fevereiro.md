@@ -3,14 +3,14 @@ layout: post
 title: "Diário de Bordo :: Última Virada de Fevereiro"
 date: 2016-02-28 18:00:00
 categories: 
-    - diario de bordo
+    - diario_de_bordo
     - talks
     - oficinas
 tags:
     - criptografia
     - dns
     - rede
-    - low level
+    - low_level
     - c
 comments: true
 code: false

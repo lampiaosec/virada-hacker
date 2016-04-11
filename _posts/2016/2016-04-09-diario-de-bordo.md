@@ -3,8 +3,8 @@ layout: post
 title: "Diário de Bordo :: 08 de Abril"
 date: 2016-04-09 10:00:00
 categories: 
-    - diario de bordo
-    - estudos gerais
+    - diario_de_bordo
+    - estudos_gerais
 tags:
     - rede
     - web
