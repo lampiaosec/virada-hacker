@@ -82,7 +82,7 @@ $ xinput reattach 11 3
 
 # Gnu/Linux
 
-Aproveitando a Hype do [#flisol][flisol], um cabra que cola no [#ViradaHacker][virada] queria formatar sua máquina, colocando agora o ArchLinux. Seguindo a ideia de mostrar como pescar e não entregar o peixe, [@gjuniioor][gjuniioor] passou dois guias que ele poderia usar feito por ele mesmo:
+Aproveitando a Hype do [#flisol][flisol], um cabra que cola no [#ViradaHacker][virada], o Techies, queria formatar sua máquina, colocando agora o ArchLinux. Seguindo a ideia de mostrar como pescar e não entregar o peixe, [@gjuniioor][gjuniioor] passou dois guias que ele poderia usar feito por ele mesmo:
 
 * [Instalação do ArchLinux com LVM e Luks](https://gjuniioor.github.io/blog/archlinux-lvm-luks/)
 * [Pós Instalação do ArchLinux](https://gjuniioor.github.io/blog/pos-instalacao-archlinux/)
