@@ -22,7 +22,7 @@ photos:
 
 # Falaê		{#falae}
 
-Antes de mais nada, vale informar que essa [#ViradaHacker][virada] contou com pouca gente, mas afinal, qualidade importa em que? Contanto que não seja em quantidade de memória que o browser teima em usar ou em quantidade de pacote que algum FDP insiste em enviar para meus servidores, de nada importa! :)
+Antes de mais nada, vale informar que essa [#ViradaHacker][virada] contou com pouca gente, mas afinal, quantidade importa em que? Contanto que não seja em quantidade de memória que o browser teima em usar ou em quantidade de pacote que algum FDP insiste em enviar para meus servidores, de nada importa! :)
 
 Então, sigamos.
 
