@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Diário de Bordo :: 15 de Abril"
-date: 2016-04-18 12:00:00
+date: 2016-04-15 12:00:00
 categories: 
     - diario_de_bordo
     - estudos_gerais
