@@ -116,7 +116,7 @@ Em resumo, a lista que ele fez dos passos para a explicação foi a seguinte:
 
 ## Prática com rede cabeada		{#pratica-com-rede-cabeada}
 
-[@gjuniioor] aproveitou seus estudos sobre redes de computadores e levou algumas atividades para serem feitas. Como exemplo, pode-se citar:
+[@gjuniioor][gjuniioor] aproveitou seus estudos sobre redes de computadores e levou algumas atividades para serem feitas. Como exemplo, pode-se citar:
 
 * crimpagem de cabos padrão EIA 568A;
 * crimpagem de cabos padrão EIA 568B;
