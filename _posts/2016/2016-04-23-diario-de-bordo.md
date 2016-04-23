@@ -51,7 +51,7 @@ Tranquilo! Fizemos alguns PoCs em ruby para se entender na prática. Como já te
 
 E essa é justamente a ideia que estamos a implementar no [Virgulino]. O que acham? Bora submeter PR lá? hehe
 
-## blabla
+## Novo layout
 
 Atrelado à essa questão de renovação de nosso software veio a questão do nosso site. Passamos um bom tempo afiando o machado, pensando em um layout que nos agradasse mas que fosse mais amigável. Depois que foi decidido fizemos uma hackatona (na falta de um nome melhor) em que cada um ia fazendo uma parte. Isso, claro, em paralelo com o desenvolvimento do [Virgulino]. Foi lindo! Só não tem foto pois todos estavam ocupados codando algo. haha :P
 
