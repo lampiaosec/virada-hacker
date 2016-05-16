@@ -67,9 +67,9 @@ A ideia para resolução aqui era utilizar aritmética de ponteiros. Claro, há 
 int
 main (void) {
 	int m[lin][col] = {
-		{1,2,3,4},
-		{5,6,7,8},
-		{9,10,11,12}
+		 { 1, 2, 3, 4 },
+		 { 5, 6, 7, 8 },
+		{ 9, 10, 11, 12 }
 	};
 
 	int *p = (int *)m;
@@ -94,19 +94,19 @@ main (void) {
 
 int
 main (void) {
-	int m[lin][col] = {
-		{1,2,3,4},
-		{5,6,7,8},
-		{9,10,11,12}
-	};
+    int m[lin][col] = {
+         { 1, 2, 3, 4 },
+         { 5, 6, 7, 8 },
+        { 9, 10, 11, 12 }
+    };
 
-	int *p = (int *)m;
+    int *p = (int *)m;
 
-	for (int i = 0; i < (lin * col); i++) {
-		printf(((i+1) % col == 0) ? "%d\n" : "%d ", *(p+i));
-	}
+    for (int i = 0; i < (lin * col); i++) {
+        printf(((i+1) % col == 0) ? "%d\n" : "%d ", *(p+i));
+    }
 
-	return 0;
+    return 0;
 }
 ~~~
 
@@ -121,15 +121,15 @@ main (void) {
 int
 main (void) {
     int m[lin][col] = {
-      {  1, 2, 3, 4 },
-      {  5, 6, 7, 8 },
-      { 9, 10, 11, 12 },
+         { 1, 2, 3, 4 },
+         { 5, 6, 7, 8 },
+        { 9, 10, 11, 12 },
     };
 
-	for (int i = 0; i < (lin * col); i++)
-		printf((i % col ? "%d " : "\n%d "), *(int *)m+i);
+    for (int i = 0; i < (lin * col); i++)
+        printf((i % col ? "%d " : "\n%d "), *(int *)m+i);
 
-	return 0;
+    return 0;
 }
 ~~~
 
@@ -145,9 +145,9 @@ int
 main (void) {
 
     int m[lin][col] = {
-      {  1, 2, 3, 4 },
-      {  5, 6, 7, 8 },
-      { 9, 10, 11, 12 },
+         { 1, 2, 3, 4 },
+         { 5, 6, 7, 8 },
+        { 9, 10, 11, 12 },
     };
 
     for (int i = 0; i < lin; i++ ) {
@@ -157,7 +157,7 @@ main (void) {
         printf ("\n");
     }
 
-	return 0;
+    return 0;
 }
 ~~~
 
