@@ -108,6 +108,25 @@ main (void) {
 }
 ~~~
 
+#### Solução 03
+
+~~~ c
+#include <stdio.h>
+
+#define lin 3
+#define col 4
+
+int
+main (void) {
+	int m[lin][col] = {0,1,2,3,4,5,6,7,8,9,10,11};
+
+	for (int i = 0; i < (lin * col); i++)
+		printf((i % col ? "%d " : "\n%d "), *(int *)m+i);
+
+	return 0;
+}
+~~~
+
 > **Nota:** Sabemos que há possibilidades de melhorar o algoritmo ai, mas colocamos as respostas cruas pois pode ajudar quem está começando a estudar C ;)
 
 Desafios desse tipo é legal para fazer a galera tentar aplicar os conceitos teóricos que aprendeu em seus estudos, portanto, recomendamos muito a prática.
