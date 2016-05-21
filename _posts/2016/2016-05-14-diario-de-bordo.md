@@ -54,6 +54,8 @@ main (void) {
 
 A ideia para resolução aqui era utilizar aritmética de ponteiros. Claro, há várias soluções, vamos ver algumas das que foram mostradas:
 
+> **Nota**: As soluções apresentadas abaixo consideram a utilização do gcc na versão 6.1.1
+
 #### Solução 01
 
 ~~~ c
@@ -65,9 +67,9 @@ A ideia para resolução aqui era utilizar aritmética de ponteiros. Claro, há 
 int
 main (void) {
 	int m[lin][col] = {
-		{1,2,3,4},
-		{5,6,7,8},
-		{9,10,11,12}
+		 { 1, 2, 3, 4 },
+		 { 5, 6, 7, 8 },
+		{ 9, 10, 11, 12 }
 	};
 
 	int *p = (int *)m;
@@ -92,19 +94,19 @@ main (void) {
 
 int
 main (void) {
-	int m[lin][col] = {
-		{1,2,3,4},
-		{5,6,7,8},
-		{9,10,11,12}
-	};
+    int m[lin][col] = {
+         { 1, 2, 3, 4 },
+         { 5, 6, 7, 8 },
+        { 9, 10, 11, 12 }
+    };
 
-	int *p = (int *)m;
+    int *p = (int *)m;
 
-	for (int i = 0; i < (lin * col); i++) {
-		printf(((i+1) % col == 0) ? "%d\n" : "%d ", *(p+i));
-	}
+    for (int i = 0; i < (lin * col); i++) {
+        printf(((i+1) % col == 0) ? "%d\n" : "%d ", *(p+i));
+    }
 
-	return 0;
+    return 0;
 }
 ~~~
 
@@ -118,14 +120,47 @@ main (void) {
 
 int
 main (void) {
-	int m[lin][col] = {0,1,2,3,4,5,6,7,8,9,10,11};
+    int m[lin][col] = {
+         { 1, 2, 3, 4 },
+         { 5, 6, 7, 8 },
+        { 9, 10, 11, 12 },
+    };
 
-	for (int i = 0; i < (lin * col); i++)
-		printf((i % col ? "%d " : "\n%d "), *(int *)m+i);
+    for (int i = 0; i < (lin * col); i++)
+        printf((i % col ? "%d " : "\n%d "), *(int *)m+i);
 
-	return 0;
+    return 0;
 }
 ~~~
+
+#### Solução 04
+
+~~~ c
+#include <stdio.h>
+
+#define lin 3
+#define col 4
+
+int
+main (void) {
+
+    int m[lin][col] = {
+         { 1, 2, 3, 4 },
+         { 5, 6, 7, 8 },
+        { 9, 10, 11, 12 },
+    };
+
+    for (int i = 0; i < lin; i++ ) {
+        for (int j = 0; j < col; j++) {
+            printf ("%d ", *((int *)(*(m+i))+j));
+        }
+        printf ("\n");
+    }
+
+    return 0;
+}
+~~~
+
 
 > **Nota:** Sabemos que há possibilidades de melhorar o algoritmo ai, mas colocamos as respostas cruas pois pode ajudar quem está começando a estudar C ;)
 
