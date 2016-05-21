@@ -46,6 +46,10 @@ Pois bem, vocês devem lembrar que [@gjuniioor] já fez uma palestra sobre o DNS
 
 > Calma, não se preocupem! Os slides vão ficar disponíveis online! Basta ficar ligado na [página no facebook][fb] e também pode assinar os feeds RSS ou Atom no [site do LampiãoSec][site], eles vão aparecer lá.
 
+# E virou mesmo!
+
+Pois é! Sabe por quê isso? Dia 21 de maio de 2016, vulgo "hoje" para os íntimos, rolou o [2º PHPeetup][2phpeetup] feito pelo [PHPBA] e um pessoal saiu direto do [Raul Hacker Club][rhc] para o evento. Inclusive [@gjuniioor], que tinha programado uma palestra sobre a importância da comunidade, que você pode ver os slides [aqui][comunidade]. Então, já fica o convite a todos para os próximos eventos também! :D
+
 # Aviso Importante!
 
 Ah! Em parceria com o [RoadSec], vai rolar alguns cupons de desconto para o evento em Salvador, dia 11 de junho! Então, fiquem atentos e keep hacking! :D
@@ -64,3 +68,7 @@ a próxima!
 [roadsec]: https://roadsec.com.br/aracaju2016
 [fb]: https://facebook.com/lampiaosec
 [site]: https://lampiaosec.github.io
+[2phpeetup]: http://phpba.com.br/posts/#Phpeetup
+[phpba]: http://phpba.com.br
+[rhc]: http://raulhc.cc
+[comunidade]: https://gjuniioor.github.io/talks/voce-precisa-da-comunidade/
